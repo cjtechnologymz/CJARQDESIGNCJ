@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.loading {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    animation: is-rotating 1s infinite;
+    display: flex;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: solid white;
+    border-top-color: black;
+    border-radius: 50%;
+    text-justify: initial;
+    margin-top: 400px;
+
+}
+
+@keyframes is-rotating {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+
+
+button {
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.8;
+}
+button[disabled] {
+    opacity: 0.8;
+}
+
+.clear {
+    background: transparent;
+    border: none;
+    color: white;
+}
+.solid {
+    background: white;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.outline {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.error {
+    background: rgba(255, 0, 0, 0.464);
+    color: white;
+    display: none;
+} 
