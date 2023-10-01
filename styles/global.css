@@ -1,0 +1,175 @@
+@import url('./background.css');
+@import url('./header.css');
+@import url('./main.css');
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #aaa4a4;
+  --red: #abafb156;
+  --blue: #0041C2;
+  --green: #14B02D;
+  --yellow: #ffc12b;
+}
+
+body, button, a {
+  color: var(--text);
+  font: 400 1rem "Mukta", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+
+
+
+body {
+background-color: #f8fafc;
+}
+
+.container {
+padding: 2rem;
+}
+
+.slider-wrapper {
+position: relative;
+max-width: 48rem;
+margin: 0 auto;
+}
+
+.slider {
+display: flex;
+aspect-ratio: 16 / 9;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+scroll-behavior: smooth;
+box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+border-radius: 0.5rem;
+-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+display: none;
+}
+
+.slider img {
+flex: 1 0 100%;
+scroll-snap-align: start;
+object-fit: cover;
+}
+
+.slider-nav {
+  
+display: flex;
+column-gap: 1rem;
+position: absolute;
+bottom: 1.25rem;
+left: 50%;
+transform: translateX(-50%);
+z-index: 1;
+}
+
+.slider-nav a {
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 50%;
+background-color: #fff;
+opacity: 0.75;
+transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+footer a{
+  margin: 40px;
+  height: auto;
+  width:auto;
+
+}
+
+
+footer img{
+
+  height: 100px;
+  width: 120px;
+
+}
+
+.icon{
+  
+  display: flex;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+
+
+.botoes{
+  display: flex;
+  
+}
+
+
+
+
+
+
+.menu{
+ 
+  background: rgba(0, 0, 0, 0.54);
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.menu .botoes{
+  
+  margin: 40px;
+  margin-bottom: 50px;
+  
+}
+
+
+

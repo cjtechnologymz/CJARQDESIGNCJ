@@ -1,0 +1,366 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 0px;
+    max-width: 1440px ;
+    justify-content: space-between;
+
+}
+
+.video{
+    width: 110px;
+    height: 430;
+}
+
+.main____info{
+    width: 100%;
+    max-width: 570px;
+    padding-left: 40px;
+    
+
+}
+
+
+.main____info p {
+    font-size: 18px;
+    margin: 10px 0 0px;
+
+}
+
+.main____info h3 {
+    font-size: 30px;
+    margin: 10px 0 20px;
+
+}
+.main____info h2 {
+    font-size: 20px;
+    margin: 10px 0 20px;
+
+}
+
+
+
+
+
+.main____info div{
+    display: flex;
+    column-gap: 32px ;
+}
+
+
+.main____info div a, .main____info div button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+
+}
+
+.main____info div a{
+    background: var(--red);
+
+}
+
+.main____info div button{
+    background: transparent;
+    border: 1px solid var(--green) ;
+    
+}
+
+
+.main____info div button{
+    
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.main____info div button:hover{
+    background: linear-gradient(109deg, rgba(17, 72, 6, 0.99) 15%, rgba(0, 0, 0, 0.7) 50%, rgba(17, 72, 6, 0.99) 85%);
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+img{
+        display: block;
+        width: 100%;
+       
+        
+    
+    }
+
+    .main____info div a:hover{
+        background: linear-gradient(109deg, rgba(6, 65, 72, 0.99) 15%, rgba(0, 0, 0, 0.7) 50%, rgba(6, 59, 72, 0.99) 85%);
+        opacity: 1;
+        transform: translateY(-5px);
+    
+    }
+
+
+
+    
+
+
+
+    .navigation_____social{
+        margin-left: auto;
+        align-items: center;
+        column-gap: 24px;
+        display: flex;
+    
+     
+    }
+
+.navigation_____social svg{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.navigation_____social svg:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+
+.navigation_____footer{
+    margin-top: 30px;
+    margin-left: auto;
+    align-items: center;
+    column-gap: 24px;
+    display: flex;
+
+}
+
+.navigation_____footer svg{
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.navigation_____footer svg:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+.mobile{
+    display: none;
+}
+.video{
+    width:"300";
+     height:"400";
+}
+
+
+
+
+ /*restaurante*/
+
+
+ #menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:425px){
+
+    .mobile{
+        display: flex;
+    }
+    .pc{
+        display: none;
+    }
+
+
+   
+
+
+    .main____info p {
+        font-size: 10px;
+        margin: 20px 0 28px;
+    
+    }
+    img{
+        display: block;
+        width: 90%;
+       
+        
+    
+    }
+
+    .main____info{
+        width: 100%;
+        max-width: 570px;
+        padding-left: 10px;
+        
+    
+    }
+
+
+    .button {
+        width: 100%;
+        padding: 30px;
+        border-radius: 3px;
+    
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        transform: skew(-10deg);
+
+        
+    
+    }
+
+    *TAMANHO DO TEXTO /
+
+
+
+
+    .main____info h3 {
+        font-size: 20px;
+       
+        margin-left: 70px;
+        margin-top: 30px;
+    
+    }
+    .main____info h2 {
+        font-size: 10px;
+       
+        margin-left: 10px;
+        margin-top: 10px;
+    
+    }
+    
+
+    #initial-icon{
+        margin-left: 90px;
+        margin-top: 50px;
+       
+        width: 125px;
+        height: 125px;
+    
+    }
+
+
+
+    
+    
+
+
+
+
+    
+.main____info div a, .main____info div button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 0%;
+    margin-top: 50px;
+
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+
+}
+#botoes-menu{
+    width: 100%;
+    padding: 1px;
+    border-radius: 30px;
+    margin-left: 0%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+
+}
+
+
+
+#menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#creditos{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 10px;
+}
+
+
+.video{
+    width:"300";
+     height:"400";
+}
+
+
+    
+
+ 
+
+    
+
+   
+    
+
+   
+  }
+
+
+  
+  
